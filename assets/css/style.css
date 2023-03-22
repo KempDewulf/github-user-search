@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #182345;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+article {
+    width: 750px;
+    height: 750px;
+    background: #2d3345;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+article img {
+    margin-bottom: 10%;
+    height: 100px;
+    border-radius: 50%;
+}
+
+article h1 {
+    color: white;
+}
